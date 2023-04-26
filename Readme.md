@@ -4,13 +4,42 @@
 
 # Deep Q-Network (DQN)
 
+## Installation
+
+### Prerequisites
+
+To run this project, you will need to have anaconda or mini conda already installed:
+create a virtual environment with the following.
+To begin open your anaconda terminal and clone this repository 
+```bash
+git clone https://github.com/sokistar24/Deep_Reinforcement_learning
+```
+```bash
+conda create --name intro_to_rl python=3.9 jupyterlab numpy matplotlib
+```
+Activate the environment uisng 
+```bash
+conda activate intro_to_rl
+
+```
+```bash
+pip install gymnasium[box2d]
+```
+To start the JupyterLab server, run the following command 
+in the terminal or command prompt:
+```bash
+jupyter-lab
+```
 ### Instructions
 
-In this exercise, you will implement Deep Q-Learning to solve OpenAI Gym's LunarLander environment.  To begin, navigate to the `exercise/` folder, and follow the instructions in `Deep_Q_Network.ipynb`.
+In this exercise, you will implement Deep Q-Learning to solve OpenAI Gym's LunarLander
+environment.  
 
-(_Alternatively, if you'd prefer to explore a complete implementation, enter the `solution/` folder, and run the code in `Deep_Q_Network_Solution.ipynb`._)
 
-After you are able to get the code working, try to change the parameters in the notebook, to see if you can get the agent to train faster!  You may also like to implement prioritized experience replay, or use it as a starting point to implement a Double DQN or Dueling DQN!
+navigate to the `Deep_Q_lunar_landar.ipynb/` and run the notebook
+
+try to change the parameters in the notebook, to see if you can get the agent to train faster!
+You may also like to implement prioritized experience replay, or use it as a starting point to implement a Double DQN or Dueling DQN!
 
 ### Results
 
