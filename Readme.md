@@ -23,6 +23,9 @@ conda activate intro_to_rl
 
 ```
 ```bash
+pip install swig
+```
+```bash
 pip install gymnasium[box2d]
 ```
 To start the JupyterLab server, run the following command 
